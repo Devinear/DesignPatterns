@@ -1,7 +1,7 @@
 package com.example.designPatterns.weather_observer
 
-import com.example.designPatterns.weather_observer.common.Observer
-import com.example.designPatterns.weather_observer.common.Subject
+import com.example.designPatterns.weather_observer.custom.Observer
+import com.example.designPatterns.weather_observer.custom.Subject
 
 class WeatherData : Subject {
 

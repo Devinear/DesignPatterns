@@ -1,6 +1,11 @@
 package com.example.designPatterns.weather_observer
 
-class CurrentConditionsDisplay(subject: Subject) : Observer, DisplayElement {
+import com.example.designPatterns.weather_observer.common.DisplayElement
+import com.example.designPatterns.weather_observer.common.Observer
+import com.example.designPatterns.weather_observer.common.Subject
+
+class CurrentConditionsDisplay(subject: Subject) : Observer,
+    DisplayElement {
 
     private var temperature : Float = 0f
     private var humidity : Float = 0f

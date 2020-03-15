@@ -1,5 +1,8 @@
 package com.example.designPatterns.weather_observer
 
+import com.example.designPatterns.weather_observer.common.Observer
+import com.example.designPatterns.weather_observer.common.Subject
+
 class WeatherData : Subject {
 
     private val observers = mutableListOf<Observer>()

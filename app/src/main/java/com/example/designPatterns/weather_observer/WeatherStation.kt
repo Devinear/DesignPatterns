@@ -4,7 +4,9 @@ class WeatherStation {
     fun execute() {
         val weatherData: WeatherData = WeatherData()
 
-        CurrentConditionsDisplay(weatherData)
+        CurrentConditionsDisplay(
+            weatherData
+        )
 //        StatisticsDisplay(weatherData)
 //        ForecastDisplay(weatherData)
 

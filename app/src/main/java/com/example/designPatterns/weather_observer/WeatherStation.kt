@@ -2,12 +2,9 @@ package com.example.designPatterns.weather_observer
 
 class WeatherStation {
     fun execute() {
-        val weatherData: WeatherData =
-            WeatherData()
+        val weatherData: WeatherData = WeatherData()
 
-        CurrentConditionsDisplay(
-            weatherData
-        )
+        CurrentConditionsDisplay(weatherData)
 //        StatisticsDisplay(weatherData)
 //        ForecastDisplay(weatherData)
 

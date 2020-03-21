@@ -4,8 +4,7 @@ import com.example.designPatterns.weather_observer.custom.DisplayElement
 import com.example.designPatterns.weather_observer.custom.Observer
 import com.example.designPatterns.weather_observer.custom.Subject
 
-class CurrentConditionsDisplay(subject: Subject) : Observer,
-    DisplayElement {
+class CurrentConditionsDisplay(subject: Subject) : Observer, DisplayElement {
 
     private var temperature : Float = 0f
     private var humidity : Float = 0f
